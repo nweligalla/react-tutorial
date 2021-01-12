@@ -20,17 +20,18 @@ class Counter extends Component {
     //   }
     // );
 
+    //useing previous state instead of current state
     this.setState((prevState) => ({
       count: prevState.count + 1,
     }));
   }
 
-  increment5(){
-      this.increment();
-      this.increment();
-      this.increment();
-      this.increment();
-      this.increment();
+  increment5() {
+    this.increment();
+    this.increment();
+    this.increment();
+    this.increment();
+    this.increment();
   }
 
   render() {
